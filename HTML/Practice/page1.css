@@ -1,0 +1,44 @@
+div {
+  background: purple;
+  color: white;
+}
+
+#css-Tutorial {
+  /* # used for styling id*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.movies {
+  /* . used for styling class*/
+  background-color: gray;
+  color: blue;
+}
+
+span#aurthor-name {
+  text-transform: uppercase;
+  font: bolder;
+}
+
+#skills ol li {
+  /* styling the list elements(li) which is inside the ordered list(ol) by using the id=skills*/
+  color: darkgreen;
+  background: white;
+}
+#skills ul li {
+  /* styling the list elements(li) which is inside the ordered list(ul) by using the id=skills*/
+  color: yellow;
+}
+
+h3 + p {
+  background: black;
+  color: white;
+}
+
+p[class] {
+  background: mediumvioletred;
+}
+
+p[id] {
+  background: green;
+}

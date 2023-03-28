@@ -1,0 +1,27 @@
+body {
+  background: rgb(104, 97, 230);
+  background: linear-gradient(
+    104deg,
+    rgba(104, 97, 230, 1) 0%,
+    rgba(104, 123, 213, 1) 30%,
+    rgba(93, 216, 241, 1) 100%
+  );
+
+  /*background-image: url(../../../images/coffee.jpg);
+  background-repeat: no-repeat;
+  */
+}
+
+#div-1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: 10px solid black;
+}
+
+#div-1:hover{
+    /*transform: scale(1.1);*/
+    /*transform: rotate(45deg);*/
+    /*transform: skew(20deg,10deg);*/
+    transform: translate(100px,100px);
+}

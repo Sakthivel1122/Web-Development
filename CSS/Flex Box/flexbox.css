@@ -1,0 +1,43 @@
+body{
+    background-color: lightskyblue;
+}
+.flex-container{
+    border: 2px solid;
+    background-color: lightgreen;
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 400px; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+
+    /* Two in one */
+    /* flex-flow: row wrap; */
+    
+    /* For Horizontal centering */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+
+    /* justify-content: center; */
+    /* justify-content: center; */
+
+
+    /* For Vertical centering when height:400px */
+    /* align-items: baseline; */
+    /* align-items: flex-end; */
+
+    /* flex-wrap: wrap; */
+
+    /* flex-direction: row; */
+    /* flex-direction: row; */
+    /* align-content: center; */
+}
+
+.box{
+    background: lightgray;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    /* float: left; */
+}
